@@ -1,0 +1,14 @@
+{
+  "name": "Chrome redirect",
+  "version": "1.0",
+  "description": "Redirect to any tab specified in the manifest variable 'new_tab_url'",
+  "new_tab_url": "http://localhost:1337",
+  "manifest_version": 2,
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}

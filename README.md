@@ -1,0 +1,1 @@
+Simple script for changing the URL Chrome opens when opening a new tab. To use, simply change the `new_tab_url` in manifest and install this custom plugin with this guide https://developer.chrome.com/extensions/getstarted
